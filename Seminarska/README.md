@@ -1,5 +1,4 @@
 
-
 Семинарска работа по предметот Визуелно програмирање
 
 
@@ -31,20 +30,25 @@
 
 За секој лик се пишува посебна класа,а во секоја од класите се чуваат податоци за X и Y координатите на ликот ,променлива за сликата и звукот за ликот.Во секоја класа потребно да се напише Draw метод,за исцртување на соодветниот лик.
 
+   
+   
    public class WhiteWalker
    
    {
-public int x { get; set; }
-public int y { get; set; }
-public Image slika = Resources.WhiteWalker;
-public SoundPlayer zvuk;
+   
+	public int x { get; set; }
+	public int y { get; set; }
+	public Image slika = Resources.WhiteWalker;
+	public SoundPlayer zvuk;
 
 
 public WhiteWalker(int x,int y)
+        
         {
-this.x = x;
-this.y = y;
-            zvuk = newSoundPlayer("zombie.wav");
+        
+	this.x = x;
+	this.y = y;
+        zvuk = newSoundPlayer("zombie.wav");
 
 }
 
@@ -53,7 +57,11 @@ publicvoid Draw(Graphics g)
             g.DrawImage(slika, x, y);
 
 }
+
 }
+
+
+
 //Во класата GMdoc се чуваат листи од четирите објекти,
     public class GMdoc
     {
@@ -225,5 +233,5 @@ private void Form1_Load(object sender, EventArgs e)
 
         
             });
-
+}
 
