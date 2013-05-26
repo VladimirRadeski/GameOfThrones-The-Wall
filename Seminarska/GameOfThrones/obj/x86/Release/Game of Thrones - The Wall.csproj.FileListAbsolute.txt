@@ -1,0 +1,11 @@
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\bin\Release\Game of Thrones - The Wall.exe
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\bin\Release\Game of Thrones - The Wall.pdb
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\obj\x86\Release\Game_of_Thrones___The_Wall.Form1.resources
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\obj\x86\Release\Game_of_Thrones___The_Wall.GameOver.resources
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\obj\x86\Release\Game_of_Thrones___The_Wall.Pocetna.resources
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\obj\x86\Release\Game_of_Thrones___The_Wall.Properties.Resources.resources
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\obj\x86\Release\Game of Thrones - The Wall.exe
+C:\Users\PC\Documents\Visual Studio 2010\Projects\Game of Thrones - The Wall\Game of Thrones - The Wall\obj\x86\Release\Game of Thrones - The Wall.pdb
