@@ -1,7 +1,6 @@
 GameOfThrones-The-Wall
 ======================
 
-seminarska za vizuelno programiranje
 
 
 
@@ -16,10 +15,9 @@ seminarska za vizuelno programiranje
 
 
 
-
-                                                                             Изработиле:
-  		Владимир Радески
-						Ангела Трпковска
+ Изработиле:
+  Владимир Радески
+	Ангела Трпковска
    
 
 Опис на играта
