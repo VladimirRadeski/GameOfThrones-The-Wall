@@ -1,6 +1,5 @@
 
 
-
 Семинарска работа по предметот Визуелно програмирање
 
 
@@ -53,6 +52,7 @@ publicvoid Draw(Graphics g)
         {
             g.DrawImage(slika, x, y);
 
+}
 }
 //Во класата GMdoc се чуваат листи од четирите објекти,
     public class GMdoc
