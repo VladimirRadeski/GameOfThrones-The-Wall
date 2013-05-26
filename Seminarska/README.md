@@ -2,7 +2,6 @@
 
 
 
-
 Семинарска работа по предметот Визуелно програмирање
 
 
@@ -23,14 +22,20 @@
 
 Решение
 
-classWhiteWalker2
-classNight_sWatch
-classWhiteWalker
-class CannonBall
+	classWhiteWalker2
+
+	classNight_sWatch
+
+	classWhiteWalker
+
+	class CannonBall
+
 
 За секој лик се пишува посебна класа,а во секоја од класите се чуваат податоци за X и Y координатите на ликот ,променлива за сликата и звукот за ликот.Во секоја класа потребно да се напише Draw метод,за исцртување на соодветниот лик.
-publicclassWhiteWalker
-    {
+
+   public class WhiteWalker
+   
+   {
 publicint x { get; set; }
 publicint y { get; set; }
 publicImage slika = Resources.WhiteWalker;
@@ -50,7 +55,7 @@ publicvoid Draw(Graphics g)
             g.DrawImage(slika, x, y);
 
 }
-Во класата GMdoc се чуваат листи од четирите објекти,
+//Во класата GMdoc се чуваат листи од четирите објекти,
 public class GMdoc
     {
         public List<WhiteWalker> lista1 { get; set; }
@@ -58,7 +63,7 @@ public class GMdoc
         public List<WhiteWalker2> lista3 { get; set; }
         public List<CannonBall> lista4 { get; set; }
         
-метод за исцртување на објектите од листите,
+//метод за исцртување на објектите од листите,
 public void Draw(Graphics g)
         {
             foreach (WhiteWalker ww in lista1)
