@@ -1,7 +1,6 @@
 
 
 
-
 Семинарска работа по предметот Визуелно програмирање
 
 
@@ -36,10 +35,10 @@
    public class WhiteWalker
    
    {
-publicint x { get; set; }
-publicint y { get; set; }
-publicImage slika = Resources.WhiteWalker;
-publicSoundPlayer zvuk;
+public int x { get; set; }
+public int y { get; set; }
+public Image slika = Resources.WhiteWalker;
+public SoundPlayer zvuk;
 
 
 public WhiteWalker(int x,int y)
@@ -56,7 +55,7 @@ publicvoid Draw(Graphics g)
 
 }
 //Во класата GMdoc се чуваат листи од четирите објекти,
-public class GMdoc
+    public class GMdoc
     {
         public List<WhiteWalker> lista1 { get; set; }
         public List<Night_sWatch> lista2 { get; set; }
@@ -64,7 +63,9 @@ public class GMdoc
         public List<CannonBall> lista4 { get; set; }
         
 //метод за исцртување на објектите од листите,
-public void Draw(Graphics g)
+
+	public void Draw(Graphics g)
+        
         {
             foreach (WhiteWalker ww in lista1)
             {
@@ -83,8 +84,10 @@ public void Draw(Graphics g)
                 cb.Draw(g);
             }
         }
-како и метод за проверка дали објект од класата CannonBall дошол во допир со објект од класата Night’sWatch
-public void proveriUdar()
+//како и метод за проверка дали објект од класата CannonBall дошол во допир со објект од класата Night’sWatch
+	
+	public void proveriUdar()
+        
         {
             poeniTopka = 0;
 
